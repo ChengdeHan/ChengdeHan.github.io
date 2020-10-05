@@ -10,8 +10,9 @@ footerText: 'Copyright © 2020'
 # 这些不要动
 permalink: /posts/:year/:month/:day/:title.html
 kramdown:
-  auto_ids: true
-  input: GFM
+ auto_ids: true
+ input: GFM
+  
 exclude: ['CNAME', 'README.md', 'LICENSE', '_site', 'dist', 'Gemfile', 'Gemfile.lock', 'cli.bat', 'dist.tar.gz']
 
 # 域名配置
@@ -39,7 +40,6 @@ menu:
 
 # 点击页面文字冒出特效,不需要请设置为false
 extClickEffect: false
-
 # Google Adsense,不需要请设置为false
 # _includes/ext-adsense.html 里面修改为自己的配置
 extAdsense: false
@@ -50,6 +50,8 @@ extMTA: false
 
 # 百度收录自动推送,不需要请设置为false
 extBaidu: true
+
+markdown: kramdown
 
 # 数学公式支持，比较影响加载速度,不需要请设置为false
 extMath: true
