@@ -9,10 +9,10 @@ footerText: 'Copyright © 2020'
 
 # 这些不要动
 permalink: /posts/:year/:month/:day/:title.html
-kramdown:
-  math_engine: mathjax
-  auto_ids: true
-  input: GFM
+#kramdown:
+ # math_engine: mathjax
+ # auto_ids: true
+ # input: GFM
   
 exclude: ['CNAME', 'README.md', 'LICENSE', '_site', 'dist', 'Gemfile', 'Gemfile.lock', 'cli.bat', 'dist.tar.gz']
 
