@@ -9,9 +9,9 @@ footerText: 'Copyright © 2020'
 
 # 这些不要动
 permalink: /posts/:year/:month/:day/:title.html
-kramdown:
-  auto_ids: true
-  input: GFM
+#kramdown:
+  #auto_ids: true
+  #input: GFM
 exclude: ['CNAME', 'README.md', 'LICENSE', '_site', 'dist', 'Gemfile', 'Gemfile.lock', 'cli.bat', 'dist.tar.gz']
 
 # 域名配置
