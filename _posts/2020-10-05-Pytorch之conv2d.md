@@ -8,6 +8,10 @@
   });
 </script>
 
+layout: mypost
+title: Pytorch之CONV2D
+categories: [Pytorch]
+
 # CONV2D
 
 ## CLASS
