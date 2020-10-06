@@ -1,6 +1,8 @@
+---
 layout: mypost
 title: Pytorch之CONV2D
 categories: [Pytorch]
+---
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 <script type="text/x-mathjax-config">
@@ -11,7 +13,6 @@ categories: [Pytorch]
     }
   });
 </script>
-
 # CONV2D
 
 ## CLASS
