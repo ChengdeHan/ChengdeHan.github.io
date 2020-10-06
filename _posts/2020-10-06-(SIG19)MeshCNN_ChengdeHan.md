@@ -1,6 +1,6 @@
 ---
 layout: mypost
-title: MeshCNN A Network with an Edge
+title: (SIG19)MeshCNN A Network with an Edge
 categories: [PaperNote]
 ---
 
