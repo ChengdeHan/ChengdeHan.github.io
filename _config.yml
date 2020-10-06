@@ -3,15 +3,15 @@ encoding: utf-8
 # SEO相关信息
 title: Chengde Han Blog
 description: Chengde Han  的个人博客
-keywords: Chengde Han ,Blog,Java,Html,JavaScript
+keywords: Chengde Han
 author: Chengde Han 
 footerText: 'Copyright © 2020'
 
 # 这些不要动
 permalink: /posts/:year/:month/:day/:title.html
-#kramdown:
- #auto_ids: true
-# input: GFM
+kramdown:
+  auto_ids: true
+  input: GFM
   
 exclude: ['CNAME', 'README.md', 'LICENSE', '_site', 'dist', 'Gemfile', 'Gemfile.lock', 'cli.bat', 'dist.tar.gz']
 
@@ -21,7 +21,7 @@ domainUrl: '/'
 baseurl: ''
 
 # 吐个槽地址，会在chat页面中重定向到该地址
-tucaoUrl: https://support.qq.com/product/86335
+#tucaoUrl: https://support.qq.com/product/86335
 
 # 菜单
 menu:
